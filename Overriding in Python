@@ -1,0 +1,17 @@
+class A:
+
+    def disp(self):
+        print('CLass A')
+
+    def newf(self):
+        print('CLASS A New')
+
+class B(A):
+    def disp(self):
+        print('Class B')
+
+
+
+b = B()
+b.disp()            # Disp func of B overrides disp of A
+b.newf()
